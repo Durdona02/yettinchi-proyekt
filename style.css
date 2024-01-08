@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 100%;
+    height: 250vh;
+    background-color:lightcoral;
+    text-align: center;
+
+}
+.header{
+    width: 100%;
+    height: 250px;
+    background-image: url("./chef2.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center top;
+   
+    
+
+}
+.title{
+    font-family: cursive;
+    font-size: 28px;
+    padding-top: 50px;
+  
+
+}
+.text{
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    
+
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color:white;
+    color:green;
+    border: 2px solid brown;
+    font-size:16px ;
+    box-shadow: 0 0 20px 10px ;
+}
+.turlar{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: black;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+
+
+}
+.turlar:hover{
+    transform: scale(1.1);
+    background-color:brown;
+    color:white;
+    border: 2px solid blueviolet;
+    font-size:15px ;
+    box-shadow: 0 0 20px 10px;
+}
+.div{
+    height: 10vh;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   
+}
+.box{
+    padding-top: 50px;
+    border: 5px solid yellow;
+    padding: 30px;
+    width: 310px;
+    height: 400px;
+    background-color:rgb(105, 255, 160);
+    transition: 0.7s;
+
+}
+.box:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+    border: 5px solid goldenrod;
+    
+
+}
+.taom{
+    padding-top: 20px;
+    border:1pa solid black ;
+    padding: 4px 12px;
+    background-color: rgb(0, 255, 21);
+    font-size: 16px;
+    transform: 0.7s;
+    font-weight: bold;
+}
+.taom:hover{
+    transform: scale(1.1);
+    background-color:black;
+    color:rgb(115, 0, 255);
+    border: 2px solid rgb(0, 0, 255);
+    font-size:17px ;
+    box-shadow: 0 0 20px 10px;
+}
+.title1{
+    padding: 10px 20px;
+    transform: 0.5s;
+    font-size: 20px;
+}
+.title1:hover{
+    background-color:rgb(76, 0, 255);
+    color: brown;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.matn{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: green;
+    transform: 0.7s;
+
+}
+.matn:hover{
+    background-color:red;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.ret{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(34, 122, 100);
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 10px;
+   transition: 0.5s;
+   align-items: center;
+
+}
+.ret:hover{
+    background-color: black;
+    color:red;
+    border-radius: 5px;
+    border: 2px solid black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 30vh;
+    background-image: url("./footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+input{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid red;
+}
+.obuna{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    padding: 8px 15px;
+  transition: 0.5s;
+
+}
+.obuna:hover{
+    background-color: black;
+    color: red;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px;
+}
